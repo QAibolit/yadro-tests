@@ -13,6 +13,25 @@ import java.util.List;
 @Feature("Главная страница")
 public class MenuTests extends BaseTest {
 
+    private final String productsHeader = "Скорость, экономия места, надежность",
+            partnerHeader = "Партнерская экосистема YADRO",
+            serviceHeader = "Ваша уверенность в надежности технологической инфраструктуры — наш основной приоритет",
+            aboutCompanyHeader = "Мы бросаем вызов стереотипам, создаем востребованные инновационные технологии и постоянно развиваемся",
+            careerPageHeader = "Быть первым — значит быть частью YADRO";
+
+    private final List<String> productsSubtitles = List.of("Данные — это новый вид энергии", "Новый импульс для развития бизнеса",
+            "Шедевры, вдохновленные искусством", "Инновационная архитектура. Революционный результат.",
+            "Серверы VEGMAN Rx20 G2", "СХД TATLIN.UNIFIED GEN2", "Системы хранения TATLIN.OBJECT");
+
+    private final List<String> partnersSubtitles = List.of("Развитие партнерской экосистемы – один из приоритетов YADRO",
+            "Как устроена экосистема партнеров YADRO?",
+            "Преимущества партнерства с YADRO", "Взаимовыгодное сотрудничество");
+
+    private final List<String> serviceTabs = List.of("Программы и опции поддержки", "Дополнительные сервисы",
+            "Сервисный портал", "О Сервисе");
+
+    private final List<String> careerMenuButtons = List.of("Образование", "Карьера", "Стажировки");
+
     MainPage mainPage = new MainPage();
 
     @Test
@@ -22,10 +41,8 @@ public class MenuTests extends BaseTest {
         mainPage.openPage()
                 .closeCookieBanner()
                 .clickProductMenuButton()
-                .checkHeader("Скорость, экономия места, надежность")
-                .checkSubTitles(List.of("Данные — это новый вид энергии", "Новый импульс для развития бизнеса",
-                        "Шедевры, вдохновленные искусством", "Инновационная архитектура. Революционный результат.",
-                        "Серверы VEGMAN Rx20 G2", "СХД TATLIN.UNIFIED GEN2", "Системы хранения TATLIN.OBJECT"));
+                .checkHeader(productsHeader)
+                .checkSubTitles(productsSubtitles);
     }
 
     @Test
@@ -35,12 +52,10 @@ public class MenuTests extends BaseTest {
         mainPage.openPage()
                 .closeCookieBanner()
                 .clickPartnersMenuButton()
-                .checkHeader("Партнерская экосистема YADRO")
+                .checkHeader(partnerHeader)
                 .checkBecomePartnerButton()
                 .checkPartnerPortalButton()
-                .checkSubTitles(List.of("Развитие партнерской экосистемы – один из приоритетов YADRO",
-                        "Как устроена экосистема партнеров YADRO?",
-                        "Преимущества партнерства с YADRO", "Взаимовыгодное сотрудничество"));
+                .checkSubTitles(partnersSubtitles);
     }
 
     @Test
@@ -50,9 +65,8 @@ public class MenuTests extends BaseTest {
         mainPage.openPage()
                 .closeCookieBanner()
                 .clickServiceMenuButton()
-                .checkHeader("Ваша уверенность в надежности технологической инфраструктуры — наш основной приоритет")
-                .checkServiceTabs(List.of("Программы и опции поддержки", "Дополнительные сервисы",
-                        "Сервисный портал", "О Сервисе"));
+                .checkHeader(serviceHeader)
+                .checkServiceTabs(serviceTabs);
     }
 
     @Test
@@ -62,10 +76,10 @@ public class MenuTests extends BaseTest {
         mainPage.openPage()
                 .closeCookieBanner()
                 .clickAboutCompanyMenuButton()
-                .checkHeader("Мы бросаем вызов стереотипам, создаем востребованные инновационные технологии и постоянно развиваемся")
+                .checkHeader(aboutCompanyHeader)
                 .checkOurProductsButton()
                 .clickOurProductsButton()
-                .checkHeader("Скорость, экономия места, надежность");
+                .checkHeader(productsHeader);
     }
 
     @Test
@@ -75,9 +89,9 @@ public class MenuTests extends BaseTest {
         mainPage.openPage()
                 .closeCookieBanner()
                 .clickVacanciesMenuButton()
-                .checkHeader("Быть первым — значит быть частью YADRO")
+                .checkHeader(careerPageHeader)
                 .checkVacanciesSearchInput()
                 .checkAllVacanciesButton()
-                .checkMenuButtons(List.of("Образование", "Карьера", "Стажировки"));
+                .checkMenuButtons(careerMenuButtons);
     }
 }

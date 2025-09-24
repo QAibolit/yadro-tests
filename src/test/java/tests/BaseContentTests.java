@@ -13,6 +13,13 @@ import java.util.List;
 @Feature("Главная страница")
 public class BaseContentTests extends BaseTest {
 
+    private final String productHeader = "TATLIN.BACKUP",
+            productInfo = "Специализированная система для хранения данных резервных копий";
+
+    private final List<String> portalMenuButtons = List.of("Темы", "Мастерская", "Интервью", "Склад ума", "Лекторий", "Подкасты");
+    private final List<String> productSubtitles = List.of("Узнайте больше о TATLIN.BACKUP", "Характеристики", "Технологии",
+            "Расчет экономии хранения", "Подробности о продукте");
+
     MainPage mainPage = new MainPage();
 
     @Test
@@ -23,7 +30,7 @@ public class BaseContentTests extends BaseTest {
                 .closeCookieBanner()
                 .clickGoToPortalButton()
                 .checkPortalLogo()
-                .checkMenuButtons(List.of("Темы", "Мастерская", "Интервью", "Склад ума", "Лекторий", "Подкасты"));
+                .checkMenuButtons(portalMenuButtons);
     }
 
     @Test
@@ -33,9 +40,8 @@ public class BaseContentTests extends BaseTest {
         mainPage.openPage()
                 .closeCookieBanner()
                 .clickTatlinProductButton()
-                .checkHeader("TATLIN.BACKUP")
-                .checkProductInfo("Специализированная система для хранения данных резервных копий")
-                .checkSubTitles(List.of("Узнайте больше о TATLIN.BACKUP", "Характеристики", "Технологии",
-                        "Расчет экономии хранения", "Подробности о продукте"));
+                .checkHeader(productHeader)
+                .checkProductInfo(productInfo)
+                .checkSubTitles(productSubtitles);
     }
 }
