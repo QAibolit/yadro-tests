@@ -13,8 +13,8 @@ public interface ProjectConfig extends Config {
 
     ProjectConfig projectConfig = ConfigFactory.create(ProjectConfig.class);
 
-    @Key("remote")
-    boolean remote();
+    @Key("is.remote")
+    boolean isRemote();
 
     @Key("base.url")
     String baseUrl();

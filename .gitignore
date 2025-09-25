@@ -15,6 +15,7 @@ build/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+ajcore*.txt
 
 ### Mac OS ###
 .DS_Store

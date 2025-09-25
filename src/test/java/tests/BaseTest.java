@@ -24,7 +24,7 @@ public class BaseTest {
         Configuration.browserVersion = System.getProperty("browserVersion", projectConfig.browserVersion());
         Configuration.browserSize = System.getProperty("browserSize", projectConfig.browserSize());
 
-        if (projectConfig.remote()) {
+        if (projectConfig.isRemote()) {
             Configuration.remote = System.getProperty("remoteUrl");
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("selenoid:options", Map.<String, Object>of(
@@ -42,7 +42,7 @@ public class BaseTest {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
-        if (projectConfig.remote() && projectConfig.enableVideo()) {
+        if (projectConfig.isRemote() && projectConfig.enableVideo()) {
             Attach.addVideo();
         }
         closeWebDriver();
