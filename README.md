@@ -99,7 +99,7 @@
 **Tests:**
 
 <img alt="Allure отчет: тесты" src="media/images/allure-tests.png">  
-<br><br>
+<br>
 
 
 ---
@@ -114,21 +114,21 @@
 **Dashboard прогонов:**
 
 <img alt="Интеграция с Allure TestOps: прогоны" src="media/images/AllureTestOps-прогоны.png">  
-<br><br>
+<br>
 
 
 ---
 ## <img width="25" alt="Jira" src="media/icons/jira.svg"> Интеграция AllureTestOps с Jira:
 
 <img alt="Интеграция с Jira" src="media/images/jira.png">  
-<br><br>
+<br>
 
 
 ---
 ## <img width="25" alt="telegram" src="media/icons/telegram.svg"> Уведомление в Telegram при помощи бота:
 
 <img alt="Интеграция с Jira" src="media/images/telegram.png">
-<br><br>
+<br>
 
 
 ---
