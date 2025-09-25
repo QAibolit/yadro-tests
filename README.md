@@ -21,7 +21,7 @@
 * [Уведомление в Telegram при помощи бота](#img-width25-alttelegram-srcmediaiconstelegramsvg-уведомление-в-telegram-при-помощи-бота)
 
 * [Примеры видео выполнения тестов на Selenoid](#img-width25-altselenoid-srcmediaiconsselenoidsvg-примеры-видео-выполнения-тестов-на-selenoid)  
-<br><br>
+<br>
 
 
 ---
@@ -39,6 +39,7 @@
 <img width="45" alt="Selenoid" src="media/icons/Allure_TO.svg">
 <img width="45" alt="Selenoid" src="media/icons/jira.svg">
 </p>  
+<br>
 
 
 ---
@@ -46,7 +47,7 @@
 
 - Проверка работы кнопок меню: "Продукты", "Партнеры", "Сервис", "О нас", "Вакансии"
 - Проверка контента главной страницы: кнопка продукта, кнопка информации о компании  
-<br><br>
+<br>
 
 
 ---
@@ -77,14 +78,14 @@
 Где:
 - ${task} - название таски, которую вы хотите запустить (test, regress)
 - `-DisRemote=false` - параметр устанавливает значение isRemote как false и при запуске используется локальный браузер. По умолчанию isRemote равен true
-<br><br>
+<br>
 
 
 ---
 ## <img width="25" alt="Jenkins" src="media/icons/jenkins.svg"> Сборка в Jenkins:
 
 <img alt="Сборка в Jenkins" src="media/images/jenkins.png">  
-<br><br>
+<br>
 
 
 ---
