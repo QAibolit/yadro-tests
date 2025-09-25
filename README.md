@@ -22,7 +22,7 @@
 
 * [Примеры видео выполнения тестов на Selenoid](#примеры-видео-выполнения-тестов-на-selenoid)  
 
-
+---
 ## :star: Технологии и инструменты:  
 
 <p>
@@ -38,12 +38,13 @@
 <img width="45" alt="Selenoid" src="media/icons/jira.svg">
 </p>  
 
-
+---
 ## :open_file_folder: Реализованные проверки:  
 
 - Проверка работы кнопок меню: "Продукты", "Партнеры", "Сервис", "О нас", "Вакансии"
 - Проверка контента главной страницы: кнопка продукта, кнопка информации о компании  
 
+---
 ## :computer: Запуск из терминала:  
 
 <p>Команда для запуска тестов из терминала на удаленном браузере:</p>
@@ -70,11 +71,12 @@
 
 Эта команда устанавливает значение параметра isRemote как false и при запуске используется локальный браузер.  
 
+---
 ## <img width="25" alt="Jenkins" src="media/icons/jenkins.svg"> Сборка в Jenkins:  
 
 <img alt="Сборка в Jenkins" src="media/images/jenkins.png">  
 
-
+---
 ## <img width="25" alt="Allure" src="media/icons/Allure.svg"> Allure отчет:  
 
 **Overview:**
@@ -85,7 +87,7 @@
 
 <img alt="Allure отчет: тесты" src="media/images/allure-tests.png">  
 
-
+---
 ## <img width="25" alt="AllureTestOps" src="media/icons/Allure_TO.svg"> Интеграция с Allure TestOps:  
 
 **Тест-кейсы:**
@@ -96,15 +98,15 @@
 
 <img alt="Интеграция с Allure TestOps: прогоны" src="media/images/AllureTestOps-прогоны.png">  
 
-
+---
 ## <img width="25" alt="Jira" src="media/icons/jira.svg"> Интеграция AllureTestOps с Jira:  
 
 <img alt="Интеграция с Jira" src="media/images/jira.png">  
 
-
+---
 ## <img width="25" alt="telegram" src="media/icons/telegram.svg"> Уведомление в Telegram при помощи бота:  
 
 <img alt="Интеграция с Jira" src="media/images/telegram.png">  
 
-
+---
 ## <img width="25" alt="Selenoid" src="media/icons/Selenoid.svg"> Примеры видео выполнения тестов на Selenoid:  
