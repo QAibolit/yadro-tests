@@ -21,6 +21,7 @@
 * [Уведомление в Telegram при помощи бота](#img-width25-alttelegram-srcmediaiconstelegramsvg-уведомление-в-telegram-при-помощи-бота)
 
 * [Примеры видео выполнения тестов на Selenoid](#img-width25-altselenoid-srcmediaiconsselenoidsvg-примеры-видео-выполнения-тестов-на-selenoid)  
+<br><br>
 
 
 ---
@@ -45,6 +46,7 @@
 
 - Проверка работы кнопок меню: "Продукты", "Партнеры", "Сервис", "О нас", "Вакансии"
 - Проверка контента главной страницы: кнопка продукта, кнопка информации о компании  
+<br><br>
 
 
 ---
@@ -65,7 +67,7 @@
 - `-DbrowserVersion=версия_браузера` - устанавливает версию браузера. По умолчанию установлена версия 128 для chrome.
 - `-DbrowserSize=ширина x высота` - устанавливает размер окна браузера. По умолчанию задан размер браузера "1920x1080".
 - `-Dtimeout=таймаут` - устанавливает таймаут. По умолчанию установлен таймаут 10000 мс.
-
+<br><br>
 
 Команда для локального запуска тестов(без использования селеноида):
 
@@ -75,12 +77,14 @@
 Где:
 - ${task} - название таски, которую вы хотите запустить (test, regress)
 - `-DisRemote=false` - параметр устанавливает значение isRemote как false и при запуске используется локальный браузер. По умолчанию isRemote равен true
+<br><br>
 
 
 ---
 ## <img width="25" alt="Jenkins" src="media/icons/jenkins.svg"> Сборка в Jenkins:
 
 <img alt="Сборка в Jenkins" src="media/images/jenkins.png">  
+<br><br>
 
 
 ---
@@ -89,36 +93,41 @@
 **Overview:**
 
 <img alt="Allure отчет" src="media/images/allure.png">
-
+<br><br>
 
 **Tests:**
 
 <img alt="Allure отчет: тесты" src="media/images/allure-tests.png">  
+<br><br>
 
 
 ---
 ## <img width="25" alt="AllureTestOps" src="media/icons/Allure_TO.svg"> Интеграция с Allure TestOps:
 
+
 **Тест-кейсы:**
 
 <img alt="Интеграция с Allure TestOps" src="media/images/AllureTestOps.png">
-
+<br><br>
 
 **Dashboard прогонов:**
 
 <img alt="Интеграция с Allure TestOps: прогоны" src="media/images/AllureTestOps-прогоны.png">  
+<br><br>
 
 
 ---
 ## <img width="25" alt="Jira" src="media/icons/jira.svg"> Интеграция AllureTestOps с Jira:
 
 <img alt="Интеграция с Jira" src="media/images/jira.png">  
+<br><br>
 
 
 ---
 ## <img width="25" alt="telegram" src="media/icons/telegram.svg"> Уведомление в Telegram при помощи бота:
 
 <img alt="Интеграция с Jira" src="media/images/telegram.png">
+<br><br>
 
 
 ---
