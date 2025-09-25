@@ -66,10 +66,11 @@
 Команда для локального запуска тестов(без использования селеноида):
 
 ```
-./gradlew clean regress -DisRemote=false
+./gradlew clean ${task} -DisRemote=false
 ```
-
-Эта команда устанавливает значение параметра isRemote как false и при запуске используется локальный браузер.  
+Где:
+- ${task} - название таски, которую вы хотите запустить (test, regress)
+- `-DisRemote=false` - параметр устанавливает значение isRemote как false и при запуске используется локальный браузер. По умолчанию isRemote равен true
 
 ---
 ## <img width="25" alt="Jenkins" src="media/icons/jenkins.svg"> Сборка в Jenkins:  
@@ -110,3 +111,5 @@
 
 ---
 ## <img width="25" alt="Selenoid" src="media/icons/Selenoid.svg"> Примеры видео выполнения тестов на Selenoid:  
+
+<img alt="Selenoid video" src="media/gifs/selenoid-video.gif"> 
