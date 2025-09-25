@@ -4,26 +4,27 @@
 
 ## **Содержание:**
 
-* [Технологии и инструменты](#технологии-и-инструменты)
+* [Технологии и инструменты](#star-технологии-и-инструменты)
 
-* [Реализованные проверки](#реализованные-проверки)
+* [Реализованные проверки](#open_file_folder-реализованные-проверки)
 
-* [Запуск из терминала](#запуск-из-терминала)
+* [Запуск из терминала](#computer-запуск-из-терминала)
 
-* [Сборка в Jenkins](#сборка-в-jenkins)
+* [Сборка в Jenkins](#img-width25-altjenkins-srcmediaiconsjenkinssvg-сборка-в-jenkins)
 
-* [Allure отчет](#allure-отчет)
+* [Allure отчет](#img-width25-altallure-srcmediaiconsalluresvg-allure-отчет)
 
-* [Интеграция с Allure TestOps](#интеграция-с-allure-testops)
+* [Интеграция с Allure TestOps](#img-width25-altalluretestops-srcmediaiconsallure_tosvg-интеграция-с-allure-testops)
 
-* [Интеграция с Jira](#интеграция-с-jira)
+* [Интеграция с Jira](#img-width25-altjira-srcmediaiconsjirasvg-интеграция-alluretestops-с-jira)
 
-* [Уведомление в Telegram при помощи бота](#уведомление-в-telegram-при-помощи-бота)
+* [Уведомление в Telegram при помощи бота](#img-width25-alttelegram-srcmediaiconstelegramsvg-уведомление-в-telegram-при-помощи-бота)
 
-* [Примеры видео выполнения тестов на Selenoid](#примеры-видео-выполнения-тестов-на-selenoid)  
+* [Примеры видео выполнения тестов на Selenoid](#img-width25-altselenoid-srcmediaiconsselenoidsvg-примеры-видео-выполнения-тестов-на-selenoid)  
+
 
 ---
-## :star: Технологии и инструменты:  
+## :star: Технологии и инструменты:
 
 <p>
 <img width="45" alt="IntelliJ IDEA" src="media/icons/Idea.svg">
@@ -38,14 +39,16 @@
 <img width="45" alt="Selenoid" src="media/icons/jira.svg">
 </p>  
 
+
 ---
-## :open_file_folder: Реализованные проверки:  
+## :open_file_folder: Реализованные проверки:
 
 - Проверка работы кнопок меню: "Продукты", "Партнеры", "Сервис", "О нас", "Вакансии"
 - Проверка контента главной страницы: кнопка продукта, кнопка информации о компании  
 
+
 ---
-## :computer: Запуск из терминала:  
+## :computer: Запуск из терминала:
 
 <p>Команда для запуска тестов из терминала на удаленном браузере:</p>
 
@@ -63,6 +66,7 @@
 - `-DbrowserSize=ширина x высота` - устанавливает размер окна браузера. По умолчанию задан размер браузера "1920x1080".
 - `-Dtimeout=таймаут` - устанавливает таймаут. По умолчанию установлен таймаут 10000 мс.
 
+
 Команда для локального запуска тестов(без использования селеноида):
 
 ```
@@ -72,44 +76,52 @@
 - ${task} - название таски, которую вы хотите запустить (test, regress)
 - `-DisRemote=false` - параметр устанавливает значение isRemote как false и при запуске используется локальный браузер. По умолчанию isRemote равен true
 
+
 ---
-## <img width="25" alt="Jenkins" src="media/icons/jenkins.svg"> Сборка в Jenkins:  
+## <img width="25" alt="Jenkins" src="media/icons/jenkins.svg"> Сборка в Jenkins:
 
 <img alt="Сборка в Jenkins" src="media/images/jenkins.png">  
 
+
 ---
-## <img width="25" alt="Allure" src="media/icons/Allure.svg"> Allure отчет:  
+## <img width="25" alt="Allure" src="media/icons/Allure.svg"> Allure отчет:
 
 **Overview:**
 
 <img alt="Allure отчет" src="media/images/allure.png">
 
+
 **Tests:**
 
 <img alt="Allure отчет: тесты" src="media/images/allure-tests.png">  
 
+
 ---
-## <img width="25" alt="AllureTestOps" src="media/icons/Allure_TO.svg"> Интеграция с Allure TestOps:  
+## <img width="25" alt="AllureTestOps" src="media/icons/Allure_TO.svg"> Интеграция с Allure TestOps:
 
 **Тест-кейсы:**
 
 <img alt="Интеграция с Allure TestOps" src="media/images/AllureTestOps.png">
 
+
 **Dashboard прогонов:**
 
 <img alt="Интеграция с Allure TestOps: прогоны" src="media/images/AllureTestOps-прогоны.png">  
 
+
 ---
-## <img width="25" alt="Jira" src="media/icons/jira.svg"> Интеграция AllureTestOps с Jira:  
+## <img width="25" alt="Jira" src="media/icons/jira.svg"> Интеграция AllureTestOps с Jira:
 
 <img alt="Интеграция с Jira" src="media/images/jira.png">  
 
----
-## <img width="25" alt="telegram" src="media/icons/telegram.svg"> Уведомление в Telegram при помощи бота:  
-
-<img alt="Интеграция с Jira" src="media/images/telegram.png">  
 
 ---
-## <img width="25" alt="Selenoid" src="media/icons/Selenoid.svg"> Примеры видео выполнения тестов на Selenoid:  
+## <img width="25" alt="telegram" src="media/icons/telegram.svg"> Уведомление в Telegram при помощи бота:
+
+<img alt="Интеграция с Jira" src="media/images/telegram.png">
+
+
+---
+## <img width="25" alt="Selenoid" src="media/icons/Selenoid.svg"> Примеры видео выполнения тестов на Selenoid:
 
 <img alt="Selenoid video" src="media/gifs/selenoid-video.gif"> 
