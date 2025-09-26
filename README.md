@@ -28,16 +28,16 @@
 ## :star: Технологии и инструменты:
 
 <p>
-<img width="45" alt="IntelliJ IDEA" src="media/icons/Idea.svg">
-<img width="45" alt="Java" src="media/icons/java.svg">
-<img width="45" alt="JUnit5" src="media/icons/Junit5.svg">
-<img width="45" alt="Selenide" src="media/icons/Selenide.svg">
-<img width="45" alt="Allure" src="media/icons/Allure.svg">
-<img width="45" alt="Gradle" src="media/icons/gradle-original.svg">
-<img width="45" alt="Jenkins" src="media/icons/jenkins.svg">
-<img width="45" alt="Selenoid" src="media/icons/Selenoid.svg">
-<img width="45" alt="Selenoid" src="media/icons/Allure_TO.svg">
-<img width="45" alt="Selenoid" src="media/icons/jira.svg">
+<a href="https://www.jetbrains.com/idea/"><img width="45" alt="IntelliJ IDEA" src="media/icons/Idea.svg"></a>
+<a href="https://www.java.com/ru/"><img width="45" alt="Java" src="media/icons/java.svg"></a>
+<a href="https://junit.org/"><img width="45" alt="JUnit5" src="media/icons/Junit5.svg"></a>
+<a href="https://ru.selenide.org/"><img width="45" alt="Selenide" src="media/icons/Selenide.svg"></a>
+<a href="https://allurereport.org/"><img width="45" alt="Allure" src="media/icons/Allure.svg"></a>
+<a href="https://gradle.org/"><img width="45" alt="Gradle" src="media/icons/gradle-original.svg"></a>
+<a href="https://www.jenkins.io/"><img width="45" alt="Jenkins" src="media/icons/jenkins.svg"></a>
+<a href="https://aerokube.com/selenoid/latest/"><img width="45" alt="Selenoid" src="media/icons/Selenoid.svg"></a>
+<a href="https://qameta.io/"><img width="45" alt="Allure_TO" src="media/icons/Allure_TO.svg"></a>
+<a href="https://www.atlassian.com/software/jira"><img width="45" alt="Jira" src="media/icons/jira.svg"></a>
 </p>  
 <br>
 
@@ -90,6 +90,8 @@
 
 ---
 ## <img width="25" alt="Allure" src="media/icons/Allure.svg"> Allure отчет:
+
+**[Ссылка на Allure-отчет](https://jenkins.autotests.cloud/job/yadro-tests/5/allure/)** 
 
 **Overview:**
 
